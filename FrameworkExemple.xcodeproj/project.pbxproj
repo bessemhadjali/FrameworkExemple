@@ -10,6 +10,10 @@
 		FA2941DA1FDD795D00C475CC /* FrameworkExemple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2941D01FDD795D00C475CC /* FrameworkExemple.framework */; };
 		FA2941DF1FDD795D00C475CC /* FrameworkExempleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2941DE1FDD795D00C475CC /* FrameworkExempleTests.m */; };
 		FA2941E11FDD795D00C475CC /* FrameworkExemple.h in Headers */ = {isa = PBXBuildFile; fileRef = FA2941D31FDD795D00C475CC /* FrameworkExemple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA2941F01FDD79D900C475CC /* ExempleViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FA2941EE1FDD79D900C475CC /* ExempleViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA2941F11FDD79D900C475CC /* ExempleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2941EF1FDD79D900C475CC /* ExempleViewController.m */; };
+		FA2942361FDDA22300C475CC /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2942351FDDA22300C475CC /* Storyboard.storyboard */; };
+		FA2942371FDDA6FD00C475CC /* Storyboard.storyboard in Headers */ = {isa = PBXBuildFile; fileRef = FA2942351FDDA22300C475CC /* Storyboard.storyboard */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,9 @@
 		FA2941D91FDD795D00C475CC /* FrameworkExempleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrameworkExempleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2941DE1FDD795D00C475CC /* FrameworkExempleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrameworkExempleTests.m; sourceTree = "<group>"; };
 		FA2941E01FDD795D00C475CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2941EE1FDD79D900C475CC /* ExempleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExempleViewController.h; path = ../ExempleViewController.h; sourceTree = "<group>"; };
+		FA2941EF1FDD79D900C475CC /* ExempleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExempleViewController.m; path = ../ExempleViewController.m; sourceTree = "<group>"; };
+		FA2942351FDDA22300C475CC /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +78,11 @@
 		FA2941D21FDD795D00C475CC /* FrameworkExemple */ = {
 			isa = PBXGroup;
 			children = (
+				FA2941EE1FDD79D900C475CC /* ExempleViewController.h */,
+				FA2941EF1FDD79D900C475CC /* ExempleViewController.m */,
 				FA2941D31FDD795D00C475CC /* FrameworkExemple.h */,
 				FA2941D41FDD795D00C475CC /* Info.plist */,
+				FA2942351FDDA22300C475CC /* Storyboard.storyboard */,
 			);
 			path = FrameworkExemple;
 			sourceTree = "<group>";
@@ -93,7 +103,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2941F01FDD79D900C475CC /* ExempleViewController.h in Headers */,
 				FA2941E11FDD795D00C475CC /* FrameworkExemple.h in Headers */,
+				FA2942371FDDA6FD00C475CC /* Storyboard.storyboard in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2942361FDDA22300C475CC /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2941F11FDD79D900C475CC /* ExempleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +406,7 @@
 				FA2941E61FDD795D00C475CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA2941E71FDD795D00C475CC /* Build configuration list for PBXNativeTarget "FrameworkExempleTests" */ = {
 			isa = XCConfigurationList;
@@ -400,6 +415,7 @@
 				FA2941E91FDD795D00C475CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
